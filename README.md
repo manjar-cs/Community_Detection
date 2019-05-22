@@ -4,6 +4,11 @@
 
 Each	node represents	a	user and	there	will	be	an	edge	between	two	nodes	if the	number	of	times	that	two	users	review the	same	business is	greater than or	equivalent to the	filter	threshold. For	example,	suppose	user1	reviewed [business1, business2, business3] and user2 reviewed	[business2, business3, business4, business5].	If	the	threshold	is 2,	there	will	be an edge	between	user1	and	user2.
 
+#### Programming	Environment:
+
+1. Spark	DataFrame	and	GraphFrames library	for	task1,	but	for	task2	i have used only Spark RDD and standard	Python or Scala libraries.
+2. Python	3.6	and	Spark	2.3.2
+
 ## Dataset Used :
 
 Yelp dataset- can be downloaded from here (https://www.yelp.com/dataset). I have used a sample of this dataset which can be downloaded from here (https://github.com/manjar-cs/Community_Detection/blob/master/ub_sample_data.csv)
